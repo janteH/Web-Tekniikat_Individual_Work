@@ -16,8 +16,13 @@ header {
     padding: 40px;
     text-align: center;
 
+    #logo {
+        max-height: 40px;
+    }
+
     h2 {
-        padding: 20px;
+        padding-bottom: 20px;
+        padding-top: 10px;
     }
 }
 

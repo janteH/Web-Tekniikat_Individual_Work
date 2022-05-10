@@ -17,8 +17,12 @@ header {
   padding: 40px;
   text-align: center;
 }
+.container #logo {
+  max-height: 40px;
+}
 .container h2 {
-  padding: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 ul.linkItems {
