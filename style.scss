@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "JosefinSlab";
+    src: url("fonts/Josefin_Slab/JosefinSlab-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "GreatVibes";
+    src: url("fonts/Great_Vibes/GreatVibes-Regular.ttf");
+    font-weight: bold;
+}
+
 body {
     background: url('images/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -7,12 +18,13 @@ body {
 }
 
 header {
-    margin-top: 10rem;
+    margin-top: 10vh;
 }
 
 .container {
-    margin: auto;
-    background-color: rgb(231, 243, 239); opacity: 0.7;
+    height: 850px;
+    width: 390px;
+    background-color: #D9D9D9; opacity: 0.8;
     padding: 40px;
     text-align: center;
 
@@ -21,19 +33,36 @@ header {
     }
 
     h2 {
+        font-family: GreatVibes;
+        font-size: 40px;
         padding-bottom: 20px;
         padding-top: 10px;
+        margin: 0px;
+    }
+
+    p {
+        font-family: JosefinSlab;
+        font-size: 18px;
+        padding: 20px;
+        margin: 0px;
+    }
+
+    .fa-brands {
+        padding: 10px;
     }
 }
 
 ul.linkItems {
     list-style-type: none;
     padding: 20px;
+    margin: 0px;
 
     li.links {
         padding: 10px;
 
         a {
+            font-family: JosefinSlab;
+            font-weight: bold;
             font-size: 20px;
             color: black;
             text-decoration: none;
@@ -42,5 +71,5 @@ ul.linkItems {
 }
 
 footer {    
-    margin-top: 10rem;
+    margin-top: 10vh;
 }
