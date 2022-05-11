@@ -1,4 +1,3 @@
-
 /**
  fetch('https://yesno.wtf/api/')
     .then(response => response.json())
@@ -8,6 +7,12 @@
             document.getElementById('print-here').innerHTML += '<img src="' + data.image + '"/>';
         }
     );
-
-
  */
+
+function facebook() {
+    window.open('https://www.facebook.com/', '_blank');
+}
+
+function instagram() {
+    window.open('https://www.instagram.com/', '_blank');
+}
