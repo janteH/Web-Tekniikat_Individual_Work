@@ -6,16 +6,59 @@ $great-vibes: 'Great Vibes', cursive;
 
 $background-color: #E1D3C4;
 $nav-color: #A88460;
+$body-color: #DBAB7C;
+$btn-color: #5C5650;
 
-.navbar-custom {
-    background-color: $nav-color;
+body {
+    background-color: $body-color;
 
-    #logoText {
-        font-family: $great-vibes;
+    .navbar-custom {
+        background-color: $nav-color;
+
+        #logoText {
+            font-family: $great-vibes;
+        }
+
+        a {
+            font-family: $josefin-slab;
+            font-size: 20px;
+        }
     }
 
-    a {
-        font-family: $josefin-slab;
-        font-size: 20px;
+    .container {
+        background-color: $background-color;
+        padding-bottom: 30px;
+
+        .col-12 {
+            padding-left: 30px;
+            padding-right: 30px;
+
+            h2 {
+                font-family: $josefin-slab;
+                font-weight: bold;
+                text-align: center;
+                padding-top: 30px;
+            }
+
+            h3 {
+                font-family: $josefin-slab;
+                text-align: center;
+                padding-bottom: 30px;
+            }
+
+            p {
+                font-family: $josefin-slab;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+
+        }
+
+                 
+        .card .btn {
+                border: solid 2px black;
+                background-color: $btn-color;
+                color: white;
+            }
     }
 }
