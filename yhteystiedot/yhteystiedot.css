@@ -26,6 +26,17 @@ body .container h1 {
 body .container div > p {
   font-size: 20px;
 }
+body .container #printApi {
+  background-color: #5C4834;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container #printApi h2 {
+  margin: 0px;
+  padding-top: 10px;
+}
 body .container .col-md-6 {
   padding-bottom: 30px;
 }

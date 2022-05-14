@@ -8,6 +8,7 @@ $background-color: #E1D3C4;
 $nav-color: #A88460;
 $body-color: #DBAB7C;
 $btn-color: #5C5650;
+$item-color: #5C4834;
 
 body {
     background-color: $body-color;
@@ -38,6 +39,19 @@ body {
 
         div > p {
             font-size: 20px;
+        }
+
+        #printApi {
+            background-color: $item-color;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+
+            h2 {
+                margin: 0px;
+                padding-top: 10px;
+            }
         }
 
         .col-md-6 {
