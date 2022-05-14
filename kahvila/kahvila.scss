@@ -27,7 +27,7 @@ body {
 
     .container {
         background-color: $background-color;
-        padding-bottom: 30px;
+        padding-bottom: 30px;  
 
         .col-12 {
             padding-left: 30px;
@@ -51,8 +51,12 @@ body {
                 padding-left: 30px;
                 padding-right: 30px;
             }
-
         }
+
+        .row {
+            padding-left: 30px;
+            padding-right: 30px;
+        }        
                  
         .card .btn {
                 border: solid 2px black;
