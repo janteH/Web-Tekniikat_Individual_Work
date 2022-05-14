@@ -1,13 +1,8 @@
-@font-face {
-    font-family: "JosefinSlab";
-    src: url("fonts/Josefin_Slab/JosefinSlab-VariableFont_wght.ttf");
-}
+@import 'https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Slab&display=swap';
 
-@font-face {
-    font-family: "GreatVibes";
-    src: url("fonts/Great_Vibes/GreatVibes-Regular.ttf");
-    font-weight: bold;
-}
+$josefin-slab: 'Josefin Slab', serif;
+$great-vibes: 'Great Vibes', cursive;
 
 body {
     background: url('images/background.jpg') no-repeat center center fixed;
@@ -32,7 +27,7 @@ header {
     }
 
     h2 {
-        font-family: GreatVibes;
+        font-family: $great-vibes;
         font-size: 40px;
         padding-bottom: 20px;
         padding-top: 10px;
@@ -40,7 +35,7 @@ header {
     }
 
     p {
-        font-family: JosefinSlab;
+        font-family: $josefin-slab;
         font-size: 18px;
         padding: 20px;
         margin: 0px;
@@ -60,7 +55,7 @@ ul.linkItems {
         padding: 10px;
 
         a {
-            font-family: JosefinSlab;
+            font-family: $josefin-slab;
             font-weight: bold;
             font-size: 20px;
             color: black;
