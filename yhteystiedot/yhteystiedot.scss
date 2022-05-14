@@ -1,0 +1,61 @@
+@import 'https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Slab&display=swap';
+
+$josefin-slab: 'Josefin Slab', serif;
+$great-vibes: 'Great Vibes', cursive;
+
+$background-color: #E1D3C4;
+$nav-color: #A88460;
+$body-color: #DBAB7C;
+$btn-color: #5C5650;
+
+body {
+    background-color: $body-color;
+
+    .navbar-custom {
+        background-color: $nav-color;
+
+        #logoText {
+            font-family: $great-vibes;
+        }
+
+        a {
+            font-family: $josefin-slab;
+            font-size: 20px;
+        }
+    }
+
+    .container {
+        background-color: $background-color;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 30px;
+        font-family: $josefin-slab;
+
+        h1 {
+            border-bottom: 2px solid black;
+        }
+
+        div > p {
+            font-size: 20px;
+        }
+
+        .col-md-6 {
+            padding-bottom: 30px;
+        }
+    
+        .col-md-12 {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        ul > li {
+            list-style-type: none;
+        }
+
+        .fa-brands {
+            padding: 10px;
+        }
+        
+    }
+}

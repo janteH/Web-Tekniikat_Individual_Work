@@ -1,0 +1,43 @@
+@import 'https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Slab&display=swap';
+body {
+  background-color: #DBAB7C;
+}
+body .navbar-custom {
+  background-color: #A88460;
+}
+body .navbar-custom #logoText {
+  font-family: "Great Vibes", cursive;
+}
+body .navbar-custom a {
+  font-family: "Josefin Slab", serif;
+  font-size: 20px;
+}
+body .container {
+  background-color: #E1D3C4;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  font-family: "Josefin Slab", serif;
+}
+body .container h1 {
+  border-bottom: 2px solid black;
+}
+body .container div > p {
+  font-size: 20px;
+}
+body .container .col-md-6 {
+  padding-bottom: 30px;
+}
+body .container .col-md-12 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+body .container ul > li {
+  list-style-type: none;
+}
+body .container .fa-brands {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=yhteystiedot.css.map */
