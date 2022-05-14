@@ -4,8 +4,11 @@
 $josefin-slab: 'Josefin Slab', serif;
 $great-vibes: 'Great Vibes', cursive;
 
+$background-color: #E1D3C4;
+$nav-color: #A88460;
+
 .navbar-custom {
-    background-color: #977A5C;
+    background-color: $nav-color;
 
     #logoText {
         font-family: $great-vibes;

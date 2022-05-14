@@ -1,18 +1,7 @@
-/* @font-face {
-    font-family: "JosefinSlab";
-    src: url("../fonts/Josefin_Slab/JosefinSlab-VariableFont_wght.ttf");
-}
-
-@font-face {
-    font-family: "GreatVibes";
-    src: url("../fonts/Great_Vibes/GreatVibes-Regular.ttf");
-    font-weight: bold;
-}
-*/
 @import 'https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap';
 @import 'https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Slab&display=swap';
 .navbar-custom {
-  background-color: #977A5C;
+  background-color: #A88460;
 }
 .navbar-custom #logoText {
   font-family: "Great Vibes", cursive;
