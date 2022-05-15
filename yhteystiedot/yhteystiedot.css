@@ -37,6 +37,9 @@ body .container #printApi h2 {
   margin: 0px;
   padding-top: 10px;
 }
+body .container #printApi p {
+  margin: 0px;
+}
 body .container .col-md-6 {
   padding-bottom: 30px;
 }
