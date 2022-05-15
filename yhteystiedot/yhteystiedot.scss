@@ -10,6 +10,14 @@ $body-color: #DBAB7C;
 $btn-color: #5C5650;
 $item-color: #5C4834;
 
+@mixin important-text {
+    background-color: yellow;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
 body {
     background-color: $body-color;
 
@@ -61,6 +69,11 @@ body {
         .col-md-6 {
             padding-bottom: 30px;
 
+            .accordion-button {
+                background-color: $btn-color;
+                color: white;
+            }
+
             span > a {
                 color: black;
                 text-decoration: none;
@@ -70,6 +83,12 @@ body {
         .col-md-12 {
             text-align: center;
             padding-bottom: 20px;
+
+            div > form {
+                @include important-text();
+                max-width: 50vh;
+                margin: auto;
+            }
         }
 
         ul > li {
@@ -78,7 +97,6 @@ body {
 
         .fa-brands {
             padding: 10px;
-        }
-        
+        }       
     }
 }
